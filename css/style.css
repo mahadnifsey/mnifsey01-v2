@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 * {margin:0;padding:0;box-sizing:border-box;font-family:'Lato','Arial',sans-serif;font-size: 16px;}
 
-body,nav{background: #1a2929;}
+body,nav{
+  background: #DBFBFF;
+}
 
 /* HEADINGS */
-h1, p, li {color:#fff;line-height:1.4;}
+h1, p, li {color:#1B374F;line-height:1.4;}
+
+p{color: #8892b0;}
 
 h1 {font-size:2rem;}
 
@@ -253,7 +257,7 @@ button:hover{background-color:rgba(179,172,167,.5);}
   
   .bigSection {
     height: 95vh;/*Covers Entire Page*/
-
+    width: 23rem;/*Max Width on Mobile Screen*/
   }
     
   .feature-container p {
